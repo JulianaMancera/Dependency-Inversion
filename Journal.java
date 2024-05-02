@@ -7,6 +7,7 @@ public class Journal implements Resource {
 
     @Override
     public void borrow() {
+        // Implement borrowing logic for journals
         System.out.println("Borrowing journal: " + title);
     }
 }

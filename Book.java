@@ -7,6 +7,7 @@ public class Book implements Resource {
 
     @Override
     public void borrow() {
+        // Implement borrowing logic for books
         System.out.println("Borrowing book: " + title);
     }
 }
