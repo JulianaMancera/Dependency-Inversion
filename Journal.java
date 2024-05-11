@@ -1,14 +1,14 @@
 public class Journal implements Resource {
-    private String title;
+    private String journalTitle;
 
-    public Journal(String title) {
-        this.title = title;
+    public Journal(String journalTitle) {
+        this.journalTitle = journalTitle;
     }
 
     @Override
     public void borrow() {
         // Implement borrow logic for journals
-        System.out.println("Borrowing journal: " + title);
+        System.out.println("Borrowing journal: " + journalTitle);
     }
 
  

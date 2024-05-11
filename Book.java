@@ -1,14 +1,14 @@
 public class Book implements Resource {
-    private String title;
+    private String bookTitle;
 
-    public Book(String title) {
-        this.title = title;
+    public Book(String bookTitle) {
+        this.bookTitle = bookTitle;
     }
 
     @Override
     public void borrow() {
         // Implement borrow logic for books
-        System.out.println("Borrowing book: " + title);
+        System.out.println("Borrowing book: " + bookTitle);
     }
 
   

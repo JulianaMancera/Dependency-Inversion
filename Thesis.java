@@ -1,14 +1,14 @@
 public class Thesis implements Resource {
-    private String title;
+    private String thesisTitle;
 
-    public Thesis(String title) {
-        this.title = title;
+    public Thesis(String thesisTitle) {
+        this.thesisTitle = thesisTitle;
     }
 
     @Override
     public void borrow() {
         // Implement borrow logic for theses
-        System.out.println("Borrowing thesis: " + title);
+        System.out.println("Borrowing thesis: " + thesisTitle);
     }
 
 }

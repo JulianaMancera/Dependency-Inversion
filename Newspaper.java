@@ -1,14 +1,14 @@
 public class Newspaper implements Resource {
-    private String title;
+    private String newspapaerTitle;
 
-    public Newspaper(String title) {
-        this.title = title;
+    public Newspaper(String newspapaerTitle) {
+        this.newspapaerTitle = newspapaerTitle;
     }
 
     @Override
     public void borrow() {
         // Implement borrow logic for newspapers
-        System.out.println("Borrowing newspaper: " + title);
+        System.out.println("Borrowing newspaper: " + newspapaerTitle);
     }
 
 

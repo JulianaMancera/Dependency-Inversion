@@ -1,14 +1,14 @@
 public class Capstone implements Resource {
-    private String title;
+    private String capstoneTitle;
 
-    public Capstone(String title) {
-        this.title = title;
+    public Capstone(String capstoneTitle) {
+        this.capstoneTitle = capstoneTitle;
     }
 
     @Override
     public void borrow() {
         // Implement borrow logic for capstones
-        System.out.println("Borrowing capstone: " + title);
+        System.out.println("Borrowing capstone: " + capstoneTitle);
     }
 
 
