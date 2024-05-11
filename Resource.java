@@ -1,4 +1,4 @@
-// interface for resources
-interface Resource {
+public interface Resource {
     void borrow();
+     
 }
